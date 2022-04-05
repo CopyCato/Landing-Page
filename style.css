@@ -132,8 +132,47 @@ span {
   font-size: 28px;
 }
 
-
 /*End Quote*/
+
+
+
+/*Start Sign Up*/
+.sign-up {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-up-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3882F6;
+  padding: 20px 150px;
+  border-radius: 8px;
+}
+
+.sign-up-container .buttons {
+  border: 2px solid white;
+  margin-left: 100px;
+}
+
+.left h3{
+  color: #F9FAF8;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.left p {
+  color: #E5E7EB;
+}
+
+.left {
+  margin-right: 100px;
+}
+
+/*End Sing Up*/
 
 /*Start footer*/
 
