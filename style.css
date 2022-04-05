@@ -105,10 +105,33 @@ h1 {
   margin-bottom: 100px;
 }
 
-
 /*End information*/
 
 /*Start Quote*/
+.quote {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #E5E7EB;
+}
+
+.quote p {
+  font-size: 36px;
+  font-style: italic;
+  color: #1F2937;
+  font-weight: lighter;
+  width: 800px;
+}
+
+span {
+  margin-left: 450px;
+  font-weight: 900;
+  font-size: 28px;
+}
+
 
 /*End Quote*/
 
