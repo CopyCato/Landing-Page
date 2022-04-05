@@ -32,7 +32,7 @@ a {
 
 .hero {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   background-color: #1F2937;
   padding: 80px 80px 130px 80px;
 }
@@ -41,6 +41,7 @@ a {
   width: 400px;
   height: auto;
   margin-right: 26px;
+  margin-left: 50px
 }
 
 h1 {
@@ -172,8 +173,15 @@ span {
   margin-right: 100px;
 }
 
-/*End Sing Up*/
+/*End Sign Up*/
 
 /*Start footer*/
-
+footer {
+  text-align: center;
+  padding: 25px 0;
+  background-color: #1F2937;
+  color: white;
+  height: 50px;
+  font-size: 18px;
+}
 /*End footer*/
