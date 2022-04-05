@@ -2,6 +2,7 @@ body{
   margin: 0;
 }
 
+/*Start header*/
 header {
   display: flex;
   justify-content: space-around;
@@ -23,4 +24,47 @@ a {
 .logo {
   color: #F9FAF8;
   font-size: 24px;
+}
+
+/*End header*/
+
+/*Starts hero section*/
+
+.hero {
+  display: flex;
+  justify-content: space-around;
+  background-color: #1F2937;
+  padding: 80px;
+}
+
+img {
+  width: 400px;
+  height: auto;
+  margin-right: 26px;
+}
+
+h1 {
+  font-size: 48px;
+  color: #F9FAF8;
+  font-weight: 900;
+}
+
+.left-side {
+  width: 400px;
+  margin-left: 26px;
+}
+
+p {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.buttons {
+  color: #F9FAF8;
+  background-color: #3882F6;
+  padding: 10px 30px;
+  border-radius: 8px;
+  border: none;
+  font-size: 18px;
+  font-weight: 700;
 }
